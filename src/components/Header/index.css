@@ -7,14 +7,14 @@
 }
 
 .bg-home {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 0;
   z-index: 1;
 }
 
 .bg-movies {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 0;
   z-index: 1;

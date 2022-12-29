@@ -23,3 +23,9 @@
     height: 170px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .slick-movie-img {
+    height: 250px;
+  }
+}
