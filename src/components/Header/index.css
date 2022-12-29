@@ -1,0 +1,263 @@
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 24px 32px;
+  background-color: #131313;
+}
+
+.bg-home {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.bg-movies {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-container {
+    height: 103px;
+    padding: 32px 80px;
+  }
+}
+
+.nav-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 27px;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-header-container {
+    height: 39px;
+  }
+}
+
+.desktop-nav-company {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 27px;
+}
+
+@media screen and (min-width: 992px) {
+  .logo {
+    width: 135px;
+    height: 39px;
+  }
+}
+
+.desktop-menu-list {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .desktop-menu-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 48px;
+  }
+  .desktop-menu-item {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.355556px;
+    color: #ffffff;
+    margin-right: 24px;
+  }
+  .home {
+    font-weight: bold;
+  }
+  .popular {
+    font-weight: bold;
+  }
+}
+
+.nav-elements-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.search-icon {
+  font-size: 24px;
+  color: #fff;
+}
+
+.mobile-menu-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.mobile-hamburger-menu {
+  height: 24px;
+  width: 24px;
+  color: #fff;
+  margin-left: 25px;
+}
+
+@media screen and (min-width: 992px) {
+  .mobile-menu-btn {
+    display: none;
+  }
+  .mobile-hamburger-menu {
+    display: none;
+  }
+}
+
+.desktop-avatar {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .desktop-avatar {
+    display: flex;
+    height: 48px;
+    width: 48px;
+    margin-left: 32px;
+  }
+}
+
+.search-input-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 24px;
+  width: 130px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.search-input {
+  width: 90px;
+  height: 16px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin-left: 5px;
+  color: #babdc2;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.search-nav-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #2c2b2b;
+  border-radius: 0px 3px 3px 0px;
+  padding: 3px 7px;
+  height: 22px;
+}
+
+.search-input-icon {
+  font-size: 16px;
+  color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  .search-input-cont {
+    height: 28px;
+    width: 200px;
+  }
+  .search-input {
+    font-size: 14px;
+    width: 150px;
+  }
+  .search-nav-btn {
+    height: 26px;
+  }
+  .search-input-icon {
+    font-size: 20px;
+  }
+}
+
+.mobile-menu-options-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 26px;
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+
+.mobile-menu-options-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.mobile-menu-options-item {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.355556px;
+  color: #ffffff;
+  margin-right: 32px;
+}
+
+.home {
+  font-weight: 700;
+}
+
+.popular {
+  font-weight: 700;
+}
+
+.account {
+  font-weight: 700;
+}
+
+.mobile-menu-options-item .focus {
+  font-weight: 600;
+}
+
+.mobile-cross-nav-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.mobile-cross {
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .mobile-menu-options-cont {
+    display: none;
+  }
+}
+
+.nav-link {
+  text-decoration: none;
+}

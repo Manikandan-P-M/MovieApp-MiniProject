@@ -1,0 +1,82 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100wh;
+  background-color: #131313;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.failure-home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 90px;
+  width: 90%;
+  height: 213px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 992px) {
+  .failure-home-container {
+    height: 466px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 48px;
+  }
+}
+
+.movie-list-headings {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 992px) {
+  .movie-list-headings {
+    font-size: 24px;
+    line-height: 31px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 24px;
+  }
+}
+
+.movie-list-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 992px) {
+  .movie-list-heading {
+    font-size: 24px;
+    line-height: 31px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 24px;
+    margin-top: 32px;
+  }
+}
